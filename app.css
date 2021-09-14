@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    background-color: #E5E7EB;
+}
+:root{
+    --heading: 'Montserrat', sans-serif;
+    --description : 'Ubuntu', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1rem;
+}
+#heading{
+    font-family: var(--heading);
+    font-size: 2rem;
+}
+#description{
+    font-size: 1rem;
+    margin: 1rem;
+    font-family: var(--description);
+}
+.label-item{
+    font-size: 1rem;
+    font-family: var(--description);
+    font-weight: bold;
+    padding: 1rem;
+}
+.input-item{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+    font-family: var(--heading);
+}
+#check-button{
+    margin: 2rem;
+    background: none;
+    font-size: 1.25rem;
+    padding: 0.25rem 2rem;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#check-button:hover{
+    background: #8B5CF6;
+    color: white;
+}
+.change-table{
+    margin: 0 1rem 0 0 ;
+    background-color: aqua;
+    font-size: 1rem;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 0.4rem;
+}
+
+#caption{
+    font-size: 1.25rem;
+    margin: 1rem;
+}
